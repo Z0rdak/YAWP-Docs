@@ -50,6 +50,11 @@ const config: Config = {
             'https://github.com/Z0rdak/yawp-docs',
         },
         blog: {
+          blogTitle: 'Changelog',
+          blogDescription: 'YAWP version blog',
+          blogSidebarCount: 10,
+          blogSidebarTitle: 'Changelog',
+          routeBasePath: '/changelog',
           showReadingTime: true,
           feedOptions: {
             type: ['rss', 'atom'],
@@ -101,7 +106,13 @@ const config: Config = {
           label: 'Commands',
         },
         {
-          to: '/blog',
+          type: 'doc',
+          docId: 'getting-started/faq',
+          label: 'FAQs',
+          position: 'left'
+        },
+        {
+          to: '/changelog',
           label: 'Changelog',
           position: 'left'
         },
@@ -126,6 +137,10 @@ const config: Config = {
               label: 'Getting Started',
               to: 'docs/getting-started/installation',
             },
+            {
+              label: 'FAQs',
+              to: 'docs/getting-started/faq',
+            },
           ],
         },
         {
@@ -142,7 +157,7 @@ const config: Config = {
           items: [
             {
               label: 'Changelog',
-              to: '/blog',
+              to: '/changelog',
             },
             {
               label: 'GitHub',
