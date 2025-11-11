@@ -1,9 +1,11 @@
 ---
-sidebar_label: 'Region hierarchy'
-sidebar_position: 2
+title: 'Region hierarchy concept'
+description: 'What is region hierarchy and how does it work?'
+sidebar_label: 'Hierarchy'
+sidebar_position: 5
+sidebar_custom_props:
+  customEmoji: '🔝'
 ---
-
-## Hierarchy
 
 YAWP provides three different types of regions to protect your server. Their common properties are explained in the following sections.
 ***

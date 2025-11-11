@@ -1,6 +1,10 @@
 ---
+title: 'Region concepts'
+description: 'Learn what kind of regions are there in YAWP.'
 sidebar_label: 'Overview'
 sidebar_position: 1
+sidebar_custom_props:
+  customEmoji: '👁‍🗨'
 ---
 
 # Regions
