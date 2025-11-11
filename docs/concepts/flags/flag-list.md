@@ -1,7 +1,12 @@
 ---
+title: 'Flag list overview'
+description: 'Take a look at all available flags and how they work.'
 sidebar_label: 'Flag list'
-sidebar_position: 2
+sidebar_position: 4
+sidebar_custom_props:
+  customEmoji: 🏳️🏴🏁🚩
 ---
+
 # Flag Table
 
 | Flag                                | Description                                                                                |               Notes                |

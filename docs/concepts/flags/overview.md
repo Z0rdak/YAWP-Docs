@@ -1,6 +1,10 @@
 ---
-sidebar_label: 'Overview'
+title: 'What are Flags?'
+description: 'Learn about what flags are and how they work.'
+sidebar_label: 'What are Flags?'
 sidebar_position: 1
+sidebar_custom_props:
+  customEmoji: 🏳️‍🌈
 ---
 # What are Flags?
 
