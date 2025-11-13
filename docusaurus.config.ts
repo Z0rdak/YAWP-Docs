@@ -83,7 +83,7 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'YAWP Docs',
+      title: 'YAWP Wiki',
       hideOnScroll: false,
       logo: {
         alt: 'YAWP Logo',
