@@ -1,10 +1,13 @@
 ---
-sidebar_label: 'Common region commands'
+title: 'Overview'
+description: 'Learn how to use YAWP commands.'
+sidebar_label: 'Overview'
 sidebar_position: 1
+sidebar_custom_props:
+  customEmoji: 📨
 ---
-## Command overview
 
-These pages show all region commands available to manage your regions. 
+The following pages give a comprehensive overview over all commands you need to effectively manage your regions and more. 
 
 Usually you would start by display information about the dimension you are standing in (by using `/yawp dim <dim> info`) and go from there with the help of the interactive CLI. This way you can mostly avoid using commands manually.
 
@@ -49,7 +52,14 @@ The listed commands here are usable for all types of regions (Local, Dimensional
 ## Region hierarchy commands
 * `/yawp local <dim> <local> add|remove child <child-region>` - Add/Remove child regions of the Local Region.
 
-### Notes:
 
+## Commands Quick Tips & Notes
+
+- Permissions to use YAWP commands can be changed in the `yawp-common.toml` [config](config/permissions).
+- Owners of a region can always execute commands considering their region.
+- All players can _see_ the YAWP commands, but the permission to use the commands are checked at execution.
+- The config setting `disable_cmd_for_non_op` disables the usage of the YAWP commands for non OPs.
+- The config setting `op_bypass_flags` allows OPs and players with UUID entry to bypass flags.
+- The config setting `hierarchy_ownership` allows owners to have permissions for child regions as well.
 - Every `<player>` argument works with the usual [entity target selectors](https://minecraft.fandom.com/wiki/Target_selectors) like `@s`, `@a`, etc. The `<team>` arguments require an already defined [vanilla minecraft team](https://minecraft.fandom.com/wiki/Commands/team).
 - The position arguments are vanilla `BlockPos` (X,Y,Z coordinates), which can be filled with TAB by looking at a block.
