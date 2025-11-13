@@ -15,8 +15,8 @@ Refer to the pages below for more information on the commands available for each
 
 ## Base commands
 
-* `/yawp global ...`: [Global Region commands](global-commands.md)
-* `/yawp dim <dim> ...`: [Dimensional Region commands](dimension-commands.md)
+* `/yawp global ...`: [Global Region commands](global-commands)
+* `/yawp dim <dim> ...`: [Dimensional Region commands](dimension-commands)
 * `/yawp local <dim> <local> ...`:  [Local Region commands](local-commands)
 
 ## Common region commands
@@ -55,7 +55,7 @@ The listed commands here are usable for all types of regions (Local, Dimensional
 
 ## Commands Quick Tips & Notes
 
-- Permissions to use YAWP commands can be changed in the `yawp-common.toml` [config](config/permissions).
+- Permissions to use YAWP commands can be changed in the `yawp-common.toml` [config](../../config/permissions).
 - Owners of a region can always execute commands considering their region.
 - All players can _see_ the YAWP commands, but the permission to use the commands are checked at execution.
 - The config setting `disable_cmd_for_non_op` disables the usage of the YAWP commands for non OPs.
