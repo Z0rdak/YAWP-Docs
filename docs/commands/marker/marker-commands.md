@@ -1,6 +1,10 @@
 ---
-sidebar_label: 'Marker commands'
+title: 'RegionMarker commands'
+description: 'Command to use with the RegionMarker to create Local Regions.'
+sidebar_label: 'Overview'
 sidebar_position: 1
+sidebar_custom_props:
+  customEmoji: 💻 📍
 ---
 # RegionMarker commands
 
