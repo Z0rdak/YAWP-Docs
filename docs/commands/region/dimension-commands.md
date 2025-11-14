@@ -1,6 +1,11 @@
 ---
 sidebar_label: 'Dimensional Region commands'
+title: 'Command Overview - Dimensional Regions'
+description: 'Command overview to manage Dimensional Regions'
+sidebar_label: 'Dimensional Region'
 sidebar_position: 3
+sidebar_custom_props:
+  customEmoji: 💻 🗾
 ---
 
 # Dimensional Regions

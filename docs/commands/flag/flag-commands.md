@@ -1,6 +1,10 @@
 ---
-sidebar_label: 'Flag commands'
+title: 'Flag commands'
+description: 'Command to manage the flags already defined in regions.'
+sidebar_label: 'Overview'
 sidebar_position: 1
+sidebar_custom_props:
+  customEmoji: 💻 🏳️
 ---
 
 # Flag commands
