@@ -9,14 +9,13 @@ sidebar_custom_props:
 
 The following pages give a comprehensive overview over all commands you need to effectively manage your regions and more. 
 
-Usually you would start by display information about the dimension you are standing in using for example:
+Usually you would start by display information about the dimension you are standing in using 
 ```
 /yawp dim minecraft:overworld info
 ```
 and go from there with the help of the interactive CLI. This way you can mostly avoid typing commands manually.
 
-Refer to the pages below for more information on the commands available for each different sub command:
-
+Refer to the pages below for more information on the commands available for each different sub command.
 ## Base commands
 
 * 🌍 [`/yawp global ...`  command reference ➡️](global-commands)
