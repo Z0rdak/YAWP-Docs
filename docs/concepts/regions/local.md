@@ -44,7 +44,7 @@ Future updates will bring more AreaTypes like Cylinder, Prism and Polygon shapes
 
 ![local-region-area](../img/cli-local-sphere-display-settings.png)
 
-### Visualization
+## Visualization
 
 ![local-region-area](../img/cli-local-sphere-visualization.png)
 
